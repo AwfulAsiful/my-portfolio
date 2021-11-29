@@ -1,0 +1,46 @@
+[
+    {
+        "title":"Watch-Point",
+        "img":"https://i.ibb.co/BZNkHcb/Watch-Point.png",
+        "desc":"A single page full-stack site related to     wrist-watch built with react"
+
+    },
+    {
+        "title":"Travel-Planner",
+        "img":"https://i.ibb.co/RT9MvcT/Travel-Planner-1.png",
+        "desc":"A single page travel-booking site built with react"
+
+    },
+    {
+        "title":"MedEasy",
+        "img":"https://i.ibb.co/VHhV8sN/MedEasy.png",
+        "desc":"Pharmaceuticals selling website"
+
+    },
+    {
+        "title":"Penguin Fashion",
+        "img":"https://i.ibb.co/9wDT1bn/Penguin-Fashion.png",
+        "desc":"Simple static website which is online retail cloth store "
+
+    },
+    
+    {
+        "title":"COPA America 2021",
+        "img":"https://i.ibb.co/xCRB09H/Copa-America-202.png",
+        "desc":"COPA America 2021 mockup website"
+
+    },
+    {
+        "title":"Panda E-commerce",
+        "img":"https://i.ibb.co/xGDLw6Y/Panda-E-commerce.png",
+        "desc":"Simple e-commerce landing page"
+
+    },
+    {
+        "title":"BOOMERANG",
+        "img":"https://i.ibb.co/QmFBf9x/Boomerang.png",
+        "desc":"Simple landing page"
+
+    }
+
+]

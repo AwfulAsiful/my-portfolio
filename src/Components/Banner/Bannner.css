@@ -1,0 +1,28 @@
+.banner-text{
+    text-align: start;
+    margin-top: 7rem;
+    
+
+}
+.designation{
+    color: #0C984C;
+}
+
+.swiper {
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+  
