@@ -16,11 +16,19 @@
 .link-items:hover{
     color: #0C984C;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 980px) {
     .navList ul{
         margin-left: 40rem;
     }
     .navbar-brand{
         margin-left: 2rem;
+    }
+    .favicon{
+        width: 6%;
+    }
+}
+@media screen and (max-width:970px) {
+    .favicon{
+        width: 18%;
     }
 }

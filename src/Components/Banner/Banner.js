@@ -14,7 +14,7 @@ const Banner = () => {
             <div className="row">
                 <div className="col-md-7 col-sm-7 banner-text"
                 >
-                    <h2 className="fw-bold fs-1" data-aos="fade-zoom-in" data-aos-offset="460"  data-aos-duration="900">
+                    <h2 className="fw-bold fs-1" data-aos="fade-zoom-in" data-aos-offset="460"  data-aos-duration="700">
 
                         Hi,I'm Asiful Islam <br />
                         <span className='designation'>
@@ -23,11 +23,13 @@ const Banner = () => {
                         Based in Bangladesh.
 
                     </h2>
+                    <p className="fs-5"
+                    data-aos="fade-zoom-in" data-aos-offset="470"  data-aos-duration="800">I design and code beautifully simple things,<br /> and I love what I do.</p>
                     <div className="mt-3"
                     data-aos="fade-right"
-                    data-aos-offset="300"
+                    data-aos-offset="480"
                     data-aos-easing="ease-in-sine"
-                    data-aos-duration="500">
+                    data-aos-duration="900">
                         <a href="https://drive.google.com/file/d/15fFK1OTyYEbMKAsO2OLMXq87-pA9Y_js/view?usp=sharing" target="_blank" rel="noreferrer">
                         <button className="btn btn-success">
                             Resume
