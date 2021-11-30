@@ -3,36 +3,44 @@ import { Link } from 'react-router-dom';
 import './MenuBar.css';
 
 const Menubar = () => {
-    
+
     return (
-        <div className='container-fluid sticky-top'
-       >
-            <div className="row bg-dark text-white p-2">
-                <div className="col-md-4 col-sm-4">
-                    <h3 className="fw-bold">
-                        ASIFUL
-                    </h3>
-                </div>
-                <div className="col-md-8 col-sm-8">
-                    <ul className="mav-items">
-                        <Link to='/home' className='link-items'>
-                        <li>HOME</li>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div className="container-fluid">
+                <h2 className="navbar-brand fw-bold mt-2 fs-3">
+                    ASIFUL
+                </h2>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse navList" 
+                
+                id="navbarNavDropdown">
+                    <ul className="navbar-nav">
+                        <Link to="/home" className="link-items">
+                        <li className="nav-item">
+                                Home
+                        </li>
                         </Link>
-                        <Link to='/home' className='link-items'>
-                        <li>ABOUT</li>
+                        <Link to="/blogs" className="link-items">
+                        <li className="nav-item">
+                               Blogs
+                        </li>
                         </Link>
-                        <Link to='/home' className='link-items'>
-                        <li>RESUME</li>
+                        <Link to="/contact" className="link-items">
+                        <li className="nav-item">
+                                Contact
+                        </li>
                         </Link>
-                        <Link to='/contact' className='link-items'>
-                        <li>CONTACT</li>
-                        </Link>
+
                     </ul>
                 </div>
             </div>
-            
-        </div>
+        </nav>
     );
 };
 
 export default Menubar;
+
+
+

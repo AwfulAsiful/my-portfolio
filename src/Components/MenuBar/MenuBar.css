@@ -16,3 +16,11 @@
 .link-items:hover{
     color: #0C984C;
 }
+@media screen and (min-width: 1024px) {
+    .navList ul{
+        margin-left: 40rem;
+    }
+    .navbar-brand{
+        margin-left: 2rem;
+    }
+}

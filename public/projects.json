@@ -1,46 +1,76 @@
 [
     {
-        "title":"Watch-Point",
-        "img":"https://i.ibb.co/BZNkHcb/Watch-Point.png",
-        "desc":"A single page full-stack site related to     wrist-watch built with react"
-
+        "title": "Watch-Point",
+        "img": "https://i.ibb.co/BZNkHcb/Watch-Point.png",
+        "desc": "A single page full-stack site related to     wrist-watch built with react",
+        "id": "1",
+        "clientSide": "https://github.com/AwfulAsiful/Watch-Point-Client",
+        "serverSide": "https://github.com/AwfulAsiful/Watch-Point-Server",
+        "url": "https://watch-point-34261.web.app/",
+        "img2": "https://i.ibb.co/bNxBcRF/Watch-Point-1.png        ",
+        "img3": "https://i.ibb.co/XXc8rY2/Watch-Point-dashboard.png        ",
+        "img4": "https://i.ibb.co/4VT8Vy5/Watch-Point-place-order.png        ",
+        "moreDesc": "Full Stack Single Page Website | Wrist-Watch Selling Site Uses first need register/ create their   account                                                                  A normal user can access and manage their                        existing orders and add review after logging in.                        The review will be shown in the home page                                                                     An admin has some extra priviliges      like                                                                    can add products which will be added in the explore section and also    he/she can a make another user admin as well                            An admin can manage orders of all users including him/herself and can change all users' order status                                        and delete their orders as well                                 Technologies : ReactJs,React-Bootstrap,Firebase,Heroku"
     },
     {
-        "title":"Travel-Planner",
-        "img":"https://i.ibb.co/RT9MvcT/Travel-Planner-1.png",
-        "desc":"A single page travel-booking site built with react"
-
+        "title": "Travel-Planner",
+        "img": "https://i.ibb.co/RT9MvcT/Travel-Planner-1.png",
+        "desc": "A single page travel-booking site built with react",
+        "id": "2",
+        "clientSide": "https://github.com/AwfulAsiful/Travel-planner-client",
+        "serverSide": "https://github.com/AwfulAsiful/Travel-planner-server",
+        "url": "https://travel-planner-7d055.web.app/",
+        "img2": "https://i.ibb.co/jJ6742g/Travel-Planner-home.png        ",
+        "img3": "https://i.ibb.co/yyBYty3/travel-planner-login.png",
+        "img4": "https://i.ibb.co/wppbt4n/Travel-Planner-place-order.png",
+        "moreDesc": "Full Stack Single Page Website | Travel-booking Site                        Only a logged in user can choose their preferred travel-plan and finalize their current plan otherwise they’ll be redirected to the loginpage. User can see and access their orders in different section where they can delete their existing order and update the order status by clicking relative buttons"
     },
     {
-        "title":"MedEasy",
-        "img":"https://i.ibb.co/VHhV8sN/MedEasy.png",
-        "desc":"Pharmaceuticals selling website"
-
+        "title": "MedEasy",
+        "img": "https://i.ibb.co/VHhV8sN/MedEasy.png",
+        "desc": "Pharmaceuticals selling website",
+        "id": "3",
+        "url": "https://assignment-10-79f1f.web.app/",
+        "githubRepo": "https://github.com/AwfulAsiful/MedEasy",
+        "img2": "https://i.ibb.co/Xx5q7wM/Med-Easy-home.png        ",
+        "img3": "https://i.ibb.co/rdfw2R4/Med-Easy-about.png        ",
+        "img4": "https://i.ibb.co/R285Xd0/Med-Easy-details.png        ",
+        "moreDesc": "This website was built with reactjs.This is a healthcare relate website.     CSS Framework: React Bootsrap.Firebase authentication is used.Deployment is also done by firebase.Google sign in was also implemented"
     },
     {
-        "title":"Penguin Fashion",
-        "img":"https://i.ibb.co/9wDT1bn/Penguin-Fashion.png",
-        "desc":"Simple static website which is online retail cloth store "
-
-    },
-    
-    {
-        "title":"COPA America 2021",
-        "img":"https://i.ibb.co/xCRB09H/Copa-America-202.png",
-        "desc":"COPA America 2021 mockup website"
-
-    },
-    {
-        "title":"Panda E-commerce",
-        "img":"https://i.ibb.co/xGDLw6Y/Panda-E-commerce.png",
-        "desc":"Simple e-commerce landing page"
-
+        "title": "Penguin Fashion",
+        "img": "https://i.ibb.co/9wDT1bn/Penguin-Fashion.png",
+        "desc": "Simple static website which is online retail cloth store ",
+        "id": "4",
+        "url": "https://penguin-fashion-retailing.netlify.app/",
+        "githubRepo": "https://github.com/AwfulAsiful/Penguin-fashion",
+        "img2": "https://i.ibb.co/ZV70bFx/Penguin-Fashion-header.png        ",
+        "img3": "https://i.ibb.co/QM4XsNJ/Penguin-Fashion-products.png        ",
+        "img4": "https://i.ibb.co/QmRtjMC/Penguin-Fashion-about.png        ",
+        "moreDesc": "Fully responsive, minimal-design webiste. Usually a PSD to HTML project.The website consists of three section- Header,Products,About.CSS Framework:Bootstrap    Deployment: Netlify"
     },
     {
-        "title":"BOOMERANG",
-        "img":"https://i.ibb.co/QmFBf9x/Boomerang.png",
-        "desc":"Simple landing page"
-
+        "title": "COPA America 2021",
+        "img": "https://i.ibb.co/xCRB09H/Copa-America-202.png",
+        "desc": "COPA America 2021 mockup website",
+        "id": "5",
+        "url": "https://awfulasiful.github.io/Football-responsive/",
+        "githubRepo": "https://github.com/AwfulAsiful/Football-responsive",
+        "img2": "https://i.ibb.co/hyF98RC/Copa-America-202-header.png        ",
+        "img3": "https://i.ibb.co/VHKBgxf/Copa-America-202-players.png        ",
+        "img4": "https://i.ibb.co/XjkWCy6/Copa-America-202-last.png        ",
+        "moreDesc": "A mockup website of the official CONMEBOL website.This website is fully responisve and css grid and flexbox layout was implemented.Simple CSS animation was used. Built-with: HTML, Vanilla CSS"
+    },
+    {
+        "title": "BOOMERANG",
+        "img": "https://i.ibb.co/QmFBf9x/Boomerang.png",
+        "img2": "https://i.ibb.co/6DnkxKm/Boomerang-contact.png        ",
+        "img3": "https://i.ibb.co/mHpVVNv/Boomerang-pricing.png        ",
+        "img4": "https://i.ibb.co/WDDMbPf/Boomerang.png",
+        "desc": "Simple landing page",
+        "id": "6",
+        "url": "https://boomerang-landing-page.netlify.app/",
+        "githubRepo": "https://github.com/AwfulAsiful/Boomerang-landing-page",
+        "moreDesc": "This is a static website, related web development services and web desgin services.The main focus on this website was to implement css animation.I used a css AOS library for animation.CSS framework: Bootstrap,Hosting: Netlify"
     }
-
 ]

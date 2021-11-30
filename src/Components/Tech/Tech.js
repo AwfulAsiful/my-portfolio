@@ -11,9 +11,10 @@ import reactsvg from '../../Images/react.svg'
 import javascript from '../../Images/javascript.svg'
 import figma from '../../Images/figma.svg'
 import firebaseSvg from '../../Images/firebase.svg'
+import './tech.css'
 const Tech = () => {
     return (
-        <div className="container">
+        <div className="container-fluid mb-5">
             <h2 className="fw-bold">
                <span style={{color:"#0c984c"}}>
                Technologies 
@@ -21,42 +22,42 @@ const Tech = () => {
                Use 
                 </span>
             </h2>
-            <div className="row my-5 gy-4">
+            <div className="row my-5 gy-4 tech-icons">
                 <div className="col-md-2">
-                    <img src={html} alt="" className="w-50"/>
+                    <img src={html} alt="" className=""/>
                 </div>
                 <div className="col-md-2">
-                    <img src={css} alt=""className="w-50"  />
+                    <img src={css} alt=""className=""  />
                 </div>
                 <div className="col-md-2">
-                    <img src={bootstrap} alt="" className="w-50" />
+                    <img src={bootstrap} alt="" className="" />
                 </div>
                 <div className="col-md-2">
-                    <img src={tailwind} alt=""className="w-50"  />
+                    <img src={tailwind} alt=""className=""  />
                 </div>
                 <div className="col-md-2">
-                    <img src={mui} alt="" className="w-50" />
+                    <img src={mui} alt="" className="" />
                 </div>
                 <div className="col-md-2">
-                    <img src={sass} alt="" className="w-50" />
+                    <img src={sass} alt="" className="" />
                 </div>
                 <div className="col-md-2">
-                    <img src={javascript} alt="" className="w-50" />
+                    <img src={javascript} alt="" className="bg-dark" />
                 </div>
                 <div className="col-md-2">
-                    <img src={reactsvg} alt="" className="w-50" />
+                    <img src={reactsvg} alt="" className="" />
                 </div>
                 <div className="col-md-2">
-                    <img src={git} alt="" className="w-50" />
+                    <img src={git} alt="" className="" />
                 </div>
                 <div className="col-md-2">
-                    <img src={vscode} alt=""className="w-50"  />
+                    <img src={vscode} alt=""className=""  />
                 </div>
                 <div className="col-md-2">
-                    <img src={figma} alt=""className="w-50"  />
+                    <img src={figma} alt=""className=""  />
                 </div>
                 <div className="col-md-2">
-                    <img src={firebaseSvg} alt=""className="w-50"  />
+                    <img src={firebaseSvg} alt=""className=""  />
                 </div>
                   
                

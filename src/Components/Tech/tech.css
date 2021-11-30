@@ -1,0 +1,10 @@
+@media screen and (max-width:970px) {
+    .tech-icons div img{
+        width: 26%;
+    }
+}
+@media screen and (min-width:980px) {
+   .tech-icons div img{
+       width: 50%;
+   }    
+}

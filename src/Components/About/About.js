@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import banner2 from '../../Images/Banner.png'
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from 'react-router-dom';
 const About = () => {
     useEffect(() => {
         AOS.init();
@@ -36,9 +37,11 @@ const About = () => {
                         control tools like- Git SCM
 
                     </p>
+                    <Link to="/contact">
                     <button className="btn btn-success">
                         Contact
                     </button>
+                    </Link>
                 </div>
             </div>
         </div>

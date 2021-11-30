@@ -28,16 +28,20 @@ const Banner = () => {
                     data-aos-offset="300"
                     data-aos-easing="ease-in-sine"
                     data-aos-duration="500">
+                        <a href="https://drive.google.com/file/d/15fFK1OTyYEbMKAsO2OLMXq87-pA9Y_js/view?usp=sharing" target="_blank" rel="noreferrer">
                         <button className="btn btn-success">
                             Resume
                         </button>
+                        </a>
+                        <a className="mailto" href="mailto:awful872@gmail.com">
                         <button className="btn btn-dark ms-2">
                             Hire Me
                         </button>
+                        </a>
                     </div>
                 </div>
                 <div className="col-md-5 col-sm-5 mt-4"
-                data-aos="fade-down"
+                data-aos="fade-left"
                 data-aos-offset="550"
                 data-aos-easing="ease-in-sine"
                 data-aos-duration="400">

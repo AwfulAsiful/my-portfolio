@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect} from 'react';
 import { Card, CardImg } from 'react-bootstrap';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from 'react-router-dom';
 const Project = (props) => {
-    const{title,img,desc}=props.project;
+    const{title,img,desc,id}=props.project;
      
     useEffect(()=>{
         AOS.init();
@@ -19,9 +20,11 @@ const Project = (props) => {
                         {title}
                     </h3>
                     <p className="text-start">{desc}</p>
-                    <button className="btn btn-outline-success">
-                        Live Demo
+                   <Link to ={`/details/${id}`}>
+                   <button className="btn btn-outline-success">
+                        Explore
                     </button>
+                   </Link>
                 </Card.Body>
             </Card>
             
